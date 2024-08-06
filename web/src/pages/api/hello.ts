@@ -10,8 +10,16 @@ interface Task {
 
 let tasks: Task[] = [
   { id: 1, title: 'Initial Setup', description: 'Set up the development environment', status: 'Completed' },
-  { id: 2, title: 'Basic Introduction', description: 'Complete the introductory module', status: 'In Progress' },
-  { id: 3, title: 'Basic Git', description: 'Learn basic Git commands', status: 'To-Do' },
+{ id: 2, title: 'Basic Introduction', description: 'Complete the introductory module', status: 'To-Do' },
+{ id: 3, title: 'Basic Git', description: 'Learn basic Git commands', status: 'To-Do' },
+{ id: 4, title: 'Git Collaboration', description: 'Collaborate on a Git repository', status: 'To-Do' },
+{ id: 5, title: 'JavaScript Basics', description: 'Complete JavaScript basics tutorial', status: 'To-Do' },
+{ id: 6, title: 'JavaScript Project', description: 'Create a small JavaScript project', status: 'To-Do' },
+{ id: 7, title: 'API Introduction', description: 'Learn about RESTful APIs', status: 'In Progress' },
+{ id: 8, title: 'API Consumption', description: 'Consume an API in a project', status: 'To-Do' },
+{ id: 9, title: 'Final Project', description: 'Complete the final project', status: 'To-Do' },
+{ id: 10, title: 'Project Presentation', description: 'Present the final project', status: 'To-Do' }
+
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
